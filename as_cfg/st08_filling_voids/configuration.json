@@ -1,0 +1,21 @@
+{
+	"fat":{
+		"skin_distance": 5,
+		"open": 2,
+		"raw_open": 1
+	},
+	"muscles":{
+		"open": 2,
+		"raw_open": 1
+	},
+	"bones":{
+		"open":1,
+		"raw_open": 1
+	},
+	"prob_search_range": 1,
+	"max_unknown_pixels_in_neighb": 5,
+	"both_sides_required": false,
+	"treat_different_tissues_as_valid": true,
+	"zero_prob_when_not_in_vicinity":true,
+	"vicinity_range":3
+}

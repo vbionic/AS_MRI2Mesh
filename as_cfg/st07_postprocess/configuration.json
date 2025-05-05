@@ -1,0 +1,28 @@
+{
+    "bones":{
+        "max_polygon_num": 2,
+        "min_polygon_size": 30,
+		"holes_allowed": false
+    },
+	"fat":{
+		"max_polygon_num": 99,
+        "min_polygon_size": 20,
+		"holes_allowed": true
+	},
+	"muscles":{
+		"max_polygon_num": 99,
+        "min_polygon_size": 20,
+		"holes_allowed": true
+	},
+	"skin":{
+		"max_polygon_num": 1,
+        "min_polygon_size": 30,
+		"holes_allowed": true
+	},
+	"vessels":{
+		"max_polygon_num": 999,
+        "min_polygon_size": 1,
+		"holes_allowed": false
+	},
+	"tissue_order":["skin", "bones", "fat", "muscles", "vessels"]
+}
