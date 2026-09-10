@@ -122,3 +122,8 @@ The directory *as_cfg* contains files with additional options for the processing
 The parameters are provided for each stage. In this example in the stage st00 the images are supposed to be preprocessed in such a way as to remove all objects (effectively by setting the pixels to zero) outside the circle with a specified centre and a specified radius. This is useful when some other parts of the body are present in the scan. A common case is the presence of a patient's head for upper limb scans. 
 For stage st01 it is specified to allow the scans with any orientation setting of the scan.
 For other possible settings please refer to the sample configuration files provided in *as_cfg* and to the source code in files *process_st##.py*.
+
+#Acknowledgment
+The project was co-financed by the European Union throug funds awarded by the National Centre for Research and Development under Sub-measure 1.1.1 of the Smart Growth Operational Programme – contract number: POIR.01.01.01-00-0269/19-00
+
+Projekt został współfinansowany ze środków Unii Europejskiej przyznanych przez Narodowe Centrum Badań i Rozwoju w ramach Poddziałania 1.1.1 Programu Operacyjnego Inteligentny Rozwój - numer umowy: POIR.01.01.01-00-0269/19-00 
